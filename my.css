@@ -1,0 +1,14 @@
+.out1{color: blue;font-size: 1em;font-weight: 480;align-items:stretch;}
+.out1{animation-name: out;height: 40px;width: 50px;align-items: flex-end;
+background-color: aqua;border:red solid 2px  ;animation-name: out;animation-duration: 3s;animation-timing-function:ease-in-out;animation-iteration-count:445;}
+@keyframes out{
+    10%{background-color: cadetblue;font-style: italic;}
+    30%{
+        border-color: yellowgreen;background-color: #fff;
+    }
+50%{font-style:inherit;font-weight: 700;border-radius: 10px;
+    background-color: blueviolet;
+}
+50%{
+    text-align: center;align-items: center;
+}}
